@@ -1,0 +1,38 @@
+h1,
+h2,
+p  {
+    text-align: center;
+    color: palevioletred;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;   
+}
+
+h1,
+p  {
+    color: black !important
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: ghostwhite;
+}
+
+table {
+    display: table;
+    box-sizing: border-box;
+    border: 2px solid palevioletred;
+    width: 650px;
+    margin: 0 auto;
+    border-spacing: 2px;
+}
+
+th,
+td  {
+   border: 2px solid palevioletred;
+}
+
+.code {
+    font-family: monospace;
+    font-weight: 600;
+    background-color: burlywood
+}
