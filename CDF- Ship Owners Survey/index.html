@@ -1,0 +1,212 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>CDF Ship Survey</title>
+  <meta charset="utf-8">
+  <meta name="Star Citizen Fan Site" content="Star Citizen themed ship survey for players of the game">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="header">
+  <h1 id="title">CDF Ship Owners Survey</h1>
+    <img class="cdf-logo" src="https://static.wikia.nocookie.net/starcitizen/images/d/db/Logo_Civilian_Defense_Force.png/revision/latest?cb=20210204225912">
+    <hr>
+    <p id="description">Civilian Defense Force is interested on gathering data on applicable Stanton citizens with ownership on one or multiple space ships and information related to that ownership.</p>
+    <br>
+    <p id="description-2"> All information is confidential and protected by UEE law. Connection from authorized mobiGlass wearables is secure.</p>
+    <hr>
+</div>
+
+<div class="form-group">
+  <form id="survey-form" method="post" action="">
+    <fieldset class="basic-info">
+      <legend>Citizen's Basic Information</legend>
+      <label for="name" id="name-label"> Citizen's Name: </label>
+      <br>
+      <input id="name" type="text" placeholder="Enter your full name." value="name" required>
+      <br>
+      <label for="email" id="email-label"> Citizen's Email: </label>
+      <br>
+      <input id="email" type="email" placeholder="Enter your valid mobiGlass E-Account" value="email" required>
+      <br>
+      <label for="number" id="number-label"> Citizen's Age (Optional):</label>
+      <br>
+      <input id="number" value="number" type="number" min="18" max="150" placeholder="Enter your age. Minimum 18.">
+      <br>
+      <label for="profession" id="profession-label"> Citizen's current profession:</label>
+      <select id="profession" required>
+        <option value="">Please select ONE option.</option>
+        <option value="free">Freelancer</option>
+        <option value="merc">Mercenary</option>
+        <option value="bh">Bounty Hunting</option>
+        <option value="trade">Interstellar Trading</option>
+        <option value="mining">Mining Operations</option>
+        <option value="salvage">Salvage Operations</option>
+        <option value="snr">Search & Rescue</option>
+        <option value="exploration">Interstellar Exploration & Cartographics</option>
+        <option value="other">Unspecified / Other</option>
+      </select> 
+    </fieldset>
+
+    <fieldset class="ship-info">
+      <legend>Ship Information</legend>
+      <label for="dropdown">How many ships do you own currently?</label>
+      <br>
+      <select id="dropdown">
+        <option value="">Please select ONE option.</option>
+        <option value="1">1 Ship</option>
+        <option value="2">2-5 Ships</option>
+        <option value="3">6-10 Ships</option>
+        <option value="4">11-20 Ships</option>
+        <option value="5">21-40 Ships</option>
+        <option value="6">More than 40 Ships</option>
+      </select>
+     </fieldset>
+     <fieldset class="ship-manufacturer">
+       <legend>Select your current fleets Ship Manufacturers</legend>
+       <br>
+       <label for="checkbox1">Aegis Dynamics</label>
+       <input id="checkbox1" value="aegis" type="checkbox">
+       <br>
+       <label for="checkbox2">Anvil Aerospace</label>
+       <input id="checkbox2" value="anvil" type="checkbox">
+       <br>
+       <label for="checkbox3">AopoA</label>
+       <input id="checkbox3" value="aopoa" type="checkbox">
+       <br>     
+       <label for="checkbox4">ARGO Astronautics</label>
+       <input id="checkbox4" value="argo" type="checkbox">
+       <br>      
+       <label for="checkbox5">Banu Souli</label>
+       <input id="checkbox5" value="banu" type="checkbox"> 
+       <br>
+       <label for="checkbox6">Consolidated Outland</label>
+       <input id="checkbox6" value="consolidated" type="checkbox">  
+       <br>
+       <label for="checkbox7">Crusader Industries</label>
+       <input id="checkbox7" value="crusader" type="checkbox">
+       <br>
+       <label for="checkbox8">Drake Interplanetary</label>
+       <input id="checkbox8" value="drake" type="checkbox">  
+       <br>
+       <label for="checkbox9">Esperia Incorporated</label>
+       <input id="checkbox9" value="esperia" type="checkbox"> 
+       <br>
+       <label for="checkbox10">Gatac Manufacture</label>
+       <input id="checkbox10" value="gatac" type="checkbox">
+       <br>
+       <label for="checkbox11">Kruger Intergalactic</label>
+       <input id="checkbox11" value="kruger" type="checkbox"> 
+       <br>
+       <label for="checkbox12">Musashi Industrial and Starflight Concern</label>
+       <input id="checkbox12" value="misc" type="checkbox">
+       <br>
+       <label for="checkbox13">Origin Jumpworks GmbH</label>
+       <input id="checkbox13" value="origin" type="checkbox">      
+       <br>
+       <label for="checkbox14">Roberts Space Industries</label>
+       <input id="checkbox14" value="rsi" type="checkbox">    
+     </fieldset>
+     <fieldset class="daily-driver">
+       <legend>Do you have a current daily driver?</legend>
+       <label for="yes" id="yes-label">Yes</label>
+       <input id="yes" class="daily-yes" name="daily-driver" value="yes" type="radio">
+       <label for="yes" id="no-label">No</label>
+       <input id="no" class="daily-no" name="daily-driver" value="no" type="radio">
+       <br>
+       <label for="daily-driver">Tell us more specifics on your daily.</label>
+       <textarea id="daily-driver" name="daily-driver" rows="6" cols="30" placeholder="For example the manufacturer, ship name and why it is your preferred ship daily."></textarea>
+    </fieldset>
+    <br>
+    <input id="submit" class="form-submit" type="Submit" value="Submit">
+  </form>
+</div>
+<footer>
+  <p> This is a Star Citizen fan site and is not affiliated with Cloud Imperium Games or Roberts Space Industries.</p>
+  <br>
+  <p> All copyrighted content is either property of their respective image owners and/or Cloud Imperium Games and Roberts Space Industries or it's subsidieries.</p>
+  <br>
+  <p> This site is fictional and purely for entertainment purposes.</p>
+</footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

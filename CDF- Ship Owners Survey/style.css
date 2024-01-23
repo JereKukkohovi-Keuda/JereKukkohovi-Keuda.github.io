@@ -1,0 +1,127 @@
+
+.abel-regular {
+    font-family: "Abel", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  body {
+    font-family: "Abel", sans-serif;
+    font-size: 18px;
+    background-color: #000000;
+    color: #ffffff;
+  }
+  
+  h1, p {
+    text-align: center;
+  }
+  
+  input, select, textarea {
+    font-family: inherit;
+  }
+  
+  input {
+    width: 100%;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  input[class="daily-yes"],
+  input[class="daily-no"]  {
+    width: unset;
+  }
+  
+  .cdf-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 60%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .form-group {
+    text-align: center;
+  }
+  
+  .basic-info, 
+  .ship-info,
+  .ship-manufacturer, 
+  .daily-driver {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+  
+  input[class="form-submit"] {
+    width: 90%;
+    font-size: 20px;
+    background-color: #09F580;
+    padding: 20px;
+    border-radius: 10px;
+  }  
+  
+  footer {
+    font-size: 12px;
+    margin-top: 50px;
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
