@@ -6,7 +6,7 @@ body {
 .container {
   border: 2px solid #3B3C36;
   padding: 5px;
-  margin: 10px auto;
+  margin: 20px auto;
   border-radius: 10px;
 }
 
@@ -19,6 +19,7 @@ body {
   width: 45%;
   text-align: center;
   margin: 20px auto;
+  font-size: 20px;
 }
 
 .black {
@@ -49,8 +50,51 @@ body {
 
 h1 {
   text-align: center;
+  border-top: 3px solid #3B3C36;
+  border-bottom: 3px solid #3B3C36;
+  border-radius: 4px;
+  font-size: 40px;
 }
 
 h2 {
+  font-size: 2.2rem;
   text-align: center;
+}
+
+.font-panel {
+  width: 100%;
+  display: block;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px solid #3B3C36;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.font-label {
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+}
+
+.regular {
+  font-style: normal;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.jet-brains {
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 20px;
+}
+
+.abel {
+  font-family: "Abel", sans-serif;
+  font-size: 24px;
 }
